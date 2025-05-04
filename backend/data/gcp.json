@@ -1,0 +1,6 @@
+{
+  "cpu_per_hr": 0.033,
+  "ram_per_hr": 0.004,
+  "storage_per_gb": 0.04,
+  "bandwidth_per_gb": 0.12
+}
