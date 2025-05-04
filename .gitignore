@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.env
+
+# Node / React
+frontend/node_modules/
+frontend/.env
+dist/
+build/
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.env
+
+# Node / React
+frontend/node_modules/
+frontend/.env
+dist/
+build/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# System files
+.DS_Store
+Thumbs.db
