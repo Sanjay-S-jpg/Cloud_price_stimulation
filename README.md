@@ -4,25 +4,26 @@ This project simulates cloud pricing for different providers like AWS, Azure, an
 
 📁 Project Structure
 
-CPS/
-├── backend/           # Flask backend
+├── 📂 backend
 │   ├── app.py
 │   ├── pricing_logic.py
-│   └── data/
+│   └── 📂 data
 │       ├── aws.json
 │       ├── azure.json
 │       └── gcp.json
 │
-├── frontend/          # React frontend
-│   ├── src/
+├── 📂 frontend
+│   ├── 📂 src
 │   │   ├── App.jsx
 │   │   ├── Dashboard.jsx
 │   │   ├── History.jsx
 │   │   ├── firebase.js
-│   │   └── ...
-│   └── ...
+│   │   └── main.jsx
+│   ├── index.html
+│   └── .env (🔐 should be in .gitignore)
 │
 └── README.md
+
 
 ⚙️ How to Run This Project
 
