@@ -3,26 +3,26 @@
 This project simulates cloud pricing for different providers like AWS, Azure, and GCP based on user-selected parameters such as CPU, RAM, and storage. It also stores and displays the pricing history using Firebase Realtime Database.
 
 Project Root Directory
+📁 Project Root Directory
+├── 📂 backend/
+│   ├── app.py                   # Main backend application file
+│   ├── pricing_logic.py         # Logic for calculating pricing
+│   └── 📂 data/                 # JSON files for cloud services data
+│       ├── aws.json
+│       ├── azure.json
+│       └── gcp.json
 │
-├── backend/
-│ ├── app.py - Main backend application file
-│ ├── pricing_logic.py - Logic for calculating pricing
-│ └── data/ - JSON files for cloud services data
-│ ├── aws.json
-│ ├── azure.json
-│ └── gcp.json
+├── 📂 frontend/
+│   ├── 📂 src/                  # Frontend source files
+│   │   ├── App.jsx              # Main component of the app
+│   │   ├── Dashboard.jsx        # Dashboard view
+│   │   ├── History.jsx          # User history view
+│   │   ├── firebase.js          # Firebase configuration
+│   │   └── main.jsx             # Entry point for React app
+│   ├── index.html               # Main HTML file for React app
+│   └── .env                     # Environment variables (🔐 Should be in .gitignore)
 │
-├── frontend/
-│ ├── src/ - Frontend source files
-│ │ ├── App.jsx - Main component of the app
-│ │ ├── Dashboard.jsx - Dashboard view
-│ │ ├── History.jsx - User history view
-│ │ ├── firebase.js - Firebase configuration
-│ │ └── main.jsx - Entry point for React app
-│ ├── index.html - Main HTML file for React app
-│ └── .env - Environment variables (🔐 Should be in .gitignore)
-│
-└── README.md - Project documentation
+└── README.md 
 
 
 ⚙️ How to Run This Project
