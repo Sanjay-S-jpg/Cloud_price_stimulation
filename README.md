@@ -2,27 +2,27 @@
 
 This project simulates cloud pricing for different providers like AWS, Azure, and GCP based on user-selected parameters such as CPU, RAM, and storage. It also stores and displays the pricing history using Firebase Realtime Database.
 
-📁 Project Structure
-
-├── 📂 backend
-│   ├── app.py
-│   ├── pricing_logic.py
-│   └── 📂 data
-│       ├── aws.json
-│       ├── azure.json
-│       └── gcp.json
+Project Root Directory
 │
-├── 📂 frontend
-│   ├── 📂 src
-│   │   ├── App.jsx
-│   │   ├── Dashboard.jsx
-│   │   ├── History.jsx
-│   │   ├── firebase.js
-│   │   └── main.jsx
-│   ├── index.html
-│   └── .env (🔐 should be in .gitignore)
+├── backend/
+│ ├── app.py - Main backend application file
+│ ├── pricing_logic.py - Logic for calculating pricing
+│ └── data/ - JSON files for cloud services data
+│ ├── aws.json
+│ ├── azure.json
+│ └── gcp.json
 │
-└── README.md
+├── frontend/
+│ ├── src/ - Frontend source files
+│ │ ├── App.jsx - Main component of the app
+│ │ ├── Dashboard.jsx - Dashboard view
+│ │ ├── History.jsx - User history view
+│ │ ├── firebase.js - Firebase configuration
+│ │ └── main.jsx - Entry point for React app
+│ ├── index.html - Main HTML file for React app
+│ └── .env - Environment variables (🔐 Should be in .gitignore)
+│
+└── README.md - Project documentation
 
 
 ⚙️ How to Run This Project
